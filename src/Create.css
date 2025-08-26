@@ -1,0 +1,37 @@
+/* /* Container for input and button */
+.create-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px; /* reduced bottom margin */
+}
+
+.uiverse-pixel-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.uiverse-pixel-input {
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  outline: none;
+  width: 250px;
+  font-size: 15px;
+}
+
+.uiverse-pixel-btn {
+  padding: 10px 16px;
+  background: #ff6b35;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.2s ease;
+}
+
+.uiverse-pixel-btn:hover {
+  background: #e85a2a;
+}
