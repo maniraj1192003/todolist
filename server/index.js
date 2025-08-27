@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Connect to MongoDB
 mongoose.connect(
-  'mongodb+srv://maniraj1192003:maniraj1192003@cluster0.2ytv9es.mongodb.net/test',
+  '',
   { useNewUrlParser: true, useUnifiedTopology: true }
 )
 .then(() => console.log("MongoDB connected"))
